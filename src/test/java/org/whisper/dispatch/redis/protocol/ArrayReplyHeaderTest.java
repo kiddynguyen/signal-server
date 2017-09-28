@@ -1,6 +1,6 @@
 package org.whisper.dispatch.redis.protocol;
 
-import org.whisper.dispatch.redis.protocol.ArrayReplyHeader;
+import org.whisper.signal.dispatch.redis.protocol.ArrayReplyHeader;
 import org.junit.Test;
 
 import java.io.IOException;

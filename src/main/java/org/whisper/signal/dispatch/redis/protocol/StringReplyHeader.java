@@ -1,4 +1,4 @@
-package org.whisper.dispatch.redis.protocol;
+package org.whisper.signal.dispatch.redis.protocol;
 
 import java.io.IOException;
 

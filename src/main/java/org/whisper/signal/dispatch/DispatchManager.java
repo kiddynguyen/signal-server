@@ -1,11 +1,11 @@
-package org.whisper.dispatch;
+package org.whisper.signal.dispatch;
 
 import com.google.common.base.Optional;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.whisper.dispatch.io.RedisPubSubConnectionFactory;
-import org.whisper.dispatch.redis.PubSubConnection;
-import org.whisper.dispatch.redis.PubSubReply;
+import org.whisper.signal.dispatch.io.RedisPubSubConnectionFactory;
+import org.whisper.signal.dispatch.redis.PubSubConnection;
+import org.whisper.signal.dispatch.redis.PubSubReply;
 
 import java.io.IOException;
 import java.util.Map;

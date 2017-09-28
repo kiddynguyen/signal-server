@@ -11,7 +11,7 @@ import com.google.protobuf.ByteString;
 import com.google.protobuf.InvalidProtocolBufferException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.whisper.dispatch.DispatchChannel;
+import org.whisper.signal.dispatch.DispatchChannel;
 import org.whisper.signal.controllers.MessageController;
 import org.whisper.signal.controllers.NoSuchUserException;
 import org.whisper.signal.entities.CryptoEncodingException;

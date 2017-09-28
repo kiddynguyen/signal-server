@@ -1,4 +1,4 @@
-package org.whisper.dispatch.redis;
+package org.whisper.signal.dispatch.redis;
 
 import com.google.common.base.Optional;
 

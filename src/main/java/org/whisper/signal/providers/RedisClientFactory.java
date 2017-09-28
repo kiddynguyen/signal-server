@@ -13,8 +13,8 @@ package org.whisper.signal.providers;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.whisper.dispatch.io.RedisPubSubConnectionFactory;
-import org.whisper.dispatch.redis.PubSubConnection;
+import org.whisper.signal.dispatch.io.RedisPubSubConnectionFactory;
+import org.whisper.signal.dispatch.redis.PubSubConnection;
 import org.whisper.signal.util.Util;
 
 import java.io.IOException;

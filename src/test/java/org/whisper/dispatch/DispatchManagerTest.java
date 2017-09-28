@@ -1,7 +1,7 @@
 package org.whisper.dispatch;
 
-import org.whisper.dispatch.DispatchManager;
-import org.whisper.dispatch.DispatchChannel;
+import org.whisper.signal.dispatch.DispatchManager;
+import org.whisper.signal.dispatch.DispatchChannel;
 import com.google.common.base.Optional;
 import org.junit.Rule;
 import org.junit.Test;
@@ -9,9 +9,9 @@ import org.junit.rules.ExternalResource;
 import org.mockito.ArgumentCaptor;
 import org.mockito.invocation.InvocationOnMock;
 import org.mockito.stubbing.Answer;
-import org.whisper.dispatch.io.RedisPubSubConnectionFactory;
-import org.whisper.dispatch.redis.PubSubConnection;
-import org.whisper.dispatch.redis.PubSubReply;
+import org.whisper.signal.dispatch.io.RedisPubSubConnectionFactory;
+import org.whisper.signal.dispatch.redis.PubSubConnection;
+import org.whisper.signal.dispatch.redis.PubSubReply;
 
 import java.io.IOException;
 import java.util.LinkedList;

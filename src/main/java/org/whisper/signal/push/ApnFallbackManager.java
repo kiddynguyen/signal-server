@@ -9,7 +9,7 @@ import com.google.common.annotations.VisibleForTesting;
 import com.google.protobuf.InvalidProtocolBufferException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.whisper.dispatch.DispatchChannel;
+import org.whisper.signal.dispatch.DispatchChannel;
 import org.whisper.signal.storage.PubSubManager;
 import org.whisper.signal.storage.PubSubProtos.PubSubMessage;
 import org.whisper.signal.util.Constants;

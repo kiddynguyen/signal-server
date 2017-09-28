@@ -1,4 +1,4 @@
-package org.whisper.dispatch;
+package org.whisper.signal.dispatch;
 
 public interface DispatchChannel {
 

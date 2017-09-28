@@ -1,13 +1,13 @@
-package org.whisper.dispatch.redis;
+package org.whisper.signal.dispatch.redis;
 
 import com.google.common.base.Optional;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.whisper.dispatch.io.RedisInputStream;
-import org.whisper.dispatch.redis.protocol.ArrayReplyHeader;
-import org.whisper.dispatch.redis.protocol.IntReply;
-import org.whisper.dispatch.redis.protocol.StringReplyHeader;
-import org.whisper.dispatch.util.Util;
+import org.whisper.signal.dispatch.io.RedisInputStream;
+import org.whisper.signal.dispatch.redis.protocol.ArrayReplyHeader;
+import org.whisper.signal.dispatch.redis.protocol.IntReply;
+import org.whisper.signal.dispatch.redis.protocol.StringReplyHeader;
+import org.whisper.signal.dispatch.util.Util;
 
 import java.io.BufferedInputStream;
 import java.io.IOException;

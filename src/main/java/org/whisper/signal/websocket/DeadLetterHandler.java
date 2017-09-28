@@ -3,7 +3,7 @@ package org.whisper.signal.websocket;
 import com.google.protobuf.InvalidProtocolBufferException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.whisper.dispatch.DispatchChannel;
+import org.whisper.signal.dispatch.DispatchChannel;
 import org.whisper.signal.entities.MessageProtos.Envelope;
 import org.whisper.signal.storage.MessagesManager;
 import org.whisper.signal.storage.PubSubProtos.PubSubMessage;

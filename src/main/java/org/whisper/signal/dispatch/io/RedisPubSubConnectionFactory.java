@@ -1,6 +1,6 @@
-package org.whisper.dispatch.io;
+package org.whisper.signal.dispatch.io;
 
-import org.whisper.dispatch.redis.PubSubConnection;
+import org.whisper.signal.dispatch.redis.PubSubConnection;
 
 public interface RedisPubSubConnectionFactory {
 

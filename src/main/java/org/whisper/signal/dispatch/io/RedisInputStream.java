@@ -1,4 +1,4 @@
-package org.whisper.dispatch.io;
+package org.whisper.signal.dispatch.io;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

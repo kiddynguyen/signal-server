@@ -2,8 +2,8 @@ package org.whisper.signal.storage;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.whisper.dispatch.DispatchChannel;
-import org.whisper.dispatch.DispatchManager;
+import org.whisper.signal.dispatch.DispatchChannel;
+import org.whisper.signal.dispatch.DispatchManager;
 
 
 import io.dropwizard.lifecycle.Managed;

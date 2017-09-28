@@ -1,7 +1,7 @@
 package org.whisper.dispatch.redis;
 
-import org.whisper.dispatch.redis.PubSubConnection;
-import org.whisper.dispatch.redis.PubSubReply;
+import org.whisper.signal.dispatch.redis.PubSubConnection;
+import org.whisper.signal.dispatch.redis.PubSubReply;
 import org.junit.Test;
 import org.mockito.ArgumentCaptor;
 import org.mockito.invocation.InvocationOnMock;
